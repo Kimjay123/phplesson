@@ -5,43 +5,32 @@
         <link rel="stylesheet" href="test.css">
     </head>
     <body>
-        <h1>Calculator</h1>
-        <form>
-            <input type="text" name="num1" placeholder="Number 1"><br>
-            <input type="text" name="num2" placeholder="Number 2"><br>
-            <select name="operator">
-                <option>None</option>
-                <option>Add</option>
-                <option>Subtract</option>
-                <option>Multiply</option>
-                <option>Divide</option>
-            </select><br>
-            <button type="submit" name="submit" value="submit">Calculate</button>
-        </form>
-        <p>The answer is:</p>
-        <?php
-            if (isset($_GET['submit'])) {
-                $result1 = $_GET['num1'];
-                $result2 = $_GET['num2'];
-                $operator = $_GET['operator'];
-                switch ($operator) {
-                    case "None":
-                        echo "You need to select a method!";
-                    break;
-                    case "Add":
-                        echo $result1 + $result2;
-                    break;
-                    case "Subtract":
-                        echo $result1 - $result2;
-                    break;
-                    case "Multiply":
-                         echo $result1 * $result2;
-                    break;
-                    case "Divide":
-                         echo $result1 / $result2;
-                    break;
-                }
-            }
-        ?>
+    <?php
+        $dayofweek = date("w");
+        
+        switch ($dayofweek) {
+            case 1:
+                echo "<p>Karun kay Lunes!</p>";
+                break;
+            case 2:
+                echo "<p>Karun kay Martes!</p>";
+                break;
+            case 3:
+                echo "<p>Karun kay Merkules!</p>";
+                break;
+            case 4:
+                echo "<p>Karun kay Huybes!</p>";
+                break;
+            case 5:
+                echo "<p>Karun kay Bernes!</p>";
+                break;
+            case 6:
+                echo "<p>Karun kay Sabado!</p>";
+                break;
+            case 0:
+                echo "<p>Karun kay Dominggo!</p>";
+                break;
+        }
+    ?>
     </body>
 </html>

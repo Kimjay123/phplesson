@@ -2,3 +2,14 @@ body {
     background-color: aqua;
     text-align: center;
 }
+
+p {
+    text-align: center;
+    font-size: 120px;
+    font-family: arial;
+    margin-top: 38vh;
+}
+
+p:hover {
+    color: red;
+}
