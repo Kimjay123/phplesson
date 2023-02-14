@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="test.css">
     </head>
     <body>
-        <h1 id="h1">Basic and Simple Calculator</h1>
+        <p><h1 id="h1">Basic and Simple Calculator</h1>By: Kim Jay</p>
     <form>
         <input type="text" name="number1" placeholder="Number 1">
         <input type="text" name="number2" placeholder="Number 2"><br>
