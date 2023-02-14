@@ -1,15 +1,25 @@
 body {
+    font-size: larger;
     background-color: aqua;
     text-align: center;
+    margin-top: 30vh;
 }
 
-p {
-    text-align: center;
-    font-size: 120px;
-    font-family: arial;
-    margin-top: 38vh;
+select {
+    margin-top: 20px;
 }
 
-p:hover {
-    color: red;
+#h1 {
+    text-decoration: underline;
+}
+
+#calculate {
+    margin-top: 20px;
+    color: blue;
+    background-color: aqua;
+}
+
+#calculate:hover {
+    color: blue;
+    background-color: skyblue;
 }
