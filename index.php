@@ -2,14 +2,23 @@
 <html>
     <head></head>
     <title>Hello Kim Jay!</title>
+    <link rel="stylesheet" href="index.css">
     <body>
-    <form method="GET">
-        <input type="text" name="person">
-        <button>SUBMIT</button>
+    <form>
+        <input type="text" name="first">
+        <input type="text" name="second">
+        <button id="button">SUBMIT</button>
     </form>
     <?php
-        $name = $_GET["person"];
-        echo $name. " Gwapo";
+    $first = $_GET["first"];
+    $second = $_GET["second"];
+
+    if($first == $second) {
+        echo "True!";
+    }
+    else {
+        echo "False!";
+    }
     ?>
     </body>
 </html>
