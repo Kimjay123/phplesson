@@ -3,21 +3,21 @@
     <head></head>
     <title>Hello Kim Jay!</title>
     <body>
-    <form method="GET">
-        <input type="text" name="number1">
-        <input type="text" name="number2">
-        <button>SUBMIT</button>
+    <form>
+        <input type="text" name="first">
+        <input type="text" name="second">
+        <button id="button">SUBMIT</button>
     </form>
     <?php
-        $number1 = $_GET["number1"];
-        $number2 = $_GET["number2"];
+    $first = $_GET["first"];
+    $second = $_GET["second"];
 
-        if ($number1 == $number2) {
-             echo "True!";
-        }
-        else {
-            echo "False!";
-        }
+    if($first == $second) {
+        echo "True!";
+    }
+    else {
+        echo "False!";
+    }
     ?>
     </body>
 </html>
