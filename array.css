@@ -1,0 +1,16 @@
+body {
+    font-size: larger;
+    background-color: aqua;
+    text-align: center;
+    margin: 30vh;
+}
+
+input[type=submit] {
+    background-color: aqua;
+    color: blue;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: blue;
+}
