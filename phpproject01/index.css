@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+button {
+    background-color: blanchedalmond;
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 10px 20px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+input[type=text], input[type=password] {
+    border: 1px solid;
+    box-sizing: border-box;
+    display: block;
+    margin: 5px auto;
+    padding: 10px 20px;
+    width: 152px;
+}
+
+p { 
+    text-align: center;
+}
+
+p img {
+    height: 55px;
+    margin-top: 3px;
+    padding-left: 37%;
+    width: 190px;
+}
+
+img {
+    border-radius: 50%;
+    float: left;
+    margin-top: 8px;
+    height: 40px;
+    width: 55px;
+}
+
+.index-categories {
+    background-color: rgb(62, 61, 61);
+    border: 5px solid #111;
+    margin: 40px auto;
+    padding: 20px ;
+    text-align: center;
+    width: 50%;
+}
+
+.index-categories h2 {
+    color: azure;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.index-categories-list h3 {
+    color: azure;
+    margin: 20px;
+    padding: 10px;
+    display: list-item;
+    list-style-position: inside;
+}
+
+.index-categories-list h3:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.signup-form {
+    background-color: rgb(62, 61, 61);
+    border: 5px solid #111;
+    margin: 90px auto;
+    padding: 20px 40px;
+    text-align: center;
+    width: 30%;
+}
+
+.signup-form p {
+    color: red;
+}
+
+#success {
+    color: aqua;
+}
+
+.signup-form h2 {
+    color: azure;
+    margin: 10px;
+}
+
+.wrapper {
+    color: white;
+    text-align: right;
+}
+
+.wrapper a {
+    color: white;
+}
+
+.wrapper a:hover {
+    color: aqua;
+}
+
+.wrapper li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.wrapper ul {
+    background-color: rgb(62, 61, 61);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 37px 0;
+    text-align: center;
+    text-decoration: underline;
+}

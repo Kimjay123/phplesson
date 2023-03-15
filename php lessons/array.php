@@ -63,17 +63,6 @@
 
             }
         }
-        
-        /*for ($kj = 0; $kj < 5; $kj++)
-        {
-             echo $arr[$kj]."<br>";
-        }*/
-        
-        /*$kj = 0;
-        while($kj < 5) {
-            echo $arr[$kj];
-            $kj++;
-        }*/
         ?>
     </body>
 </html>
