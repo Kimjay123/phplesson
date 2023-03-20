@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Welcome!</title>
-    <link rel="icon" href="../includes/icon.png">
+    <link rel="icon" href="includes/icon.png">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
                     session_start();
                     if (isset($_SESSION["useruid"])) {
                         echo "<li><a href='profile.php'>Profile page</a></li>";
-                        echo "<li><a href='logout.php'>Log out</a></li>";
+                        echo "<li><a href='includes/logout.inc.php'>Log out</a></li>";
                         
                     }
                     else {

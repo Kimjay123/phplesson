@@ -3,11 +3,11 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(161, 161, 160);
 }
 
 button {
-    background-color: blanchedalmond;
+    background-color: white;
     cursor: pointer;
     margin: 5px 0;
     padding: 10px 20px;
@@ -15,7 +15,7 @@ button {
 }
 
 button:hover {
-    background-color: aquamarine;
+    background-color: skyblue;
 }
 
 input[type=text], input[type=password] {
@@ -46,6 +46,11 @@ img {
     width: 55px;
 }
 
+.fyp {
+    margin: 25vh;
+    text-decoration: none;
+}
+
 .index-categories {
     background-color: rgb(62, 61, 61);
     border: 5px solid #111;
@@ -71,6 +76,13 @@ img {
 
 .index-categories-list h3:hover {
     color: aqua;
+    text-decoration: underline;
+}
+
+.msg {
+    color:aqua;
+    font-weight: 800;
+    padding-top: 5px;
     text-decoration: underline;
 }
 
@@ -102,11 +114,13 @@ img {
 }
 
 .wrapper a {
-    color: white;
+    color: black;
+    text-decoration: none;
 }
 
 .wrapper a:hover {
-    color: aqua;
+    text-decoration: none;
+    color: grey;
 }
 
 .wrapper li {
@@ -115,7 +129,7 @@ img {
 }
 
 .wrapper ul {
-    background-color: rgb(62, 61, 61);
+    background-color: whitesmoke;
 }
 
 h1, h2, h3, h4, h5, h6, p {
