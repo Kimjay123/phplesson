@@ -3,7 +3,7 @@
     $sql = "select * from demo_table";
     $result = $conn->query($sql);
     while($row = $result->fetch_assoc()) {
-        if (isset($_GET['id'])  && $row['id'] == $_GET['id']) {
+        if (isset($_GET['id']) && $row['id'] == $_GET['id']) {
             echo '<form class="form-inline m-2" action="update.php" method="POST">';
             echo '<td><input type="text" class="form-control" name="name" value="'.$row['name'].'"></td>';
             echo '<td><input type="number" class="form-control" name="score" value="'.$row['score'].'"></td>';
